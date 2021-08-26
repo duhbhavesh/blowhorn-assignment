@@ -1,0 +1,75 @@
+.highlight {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.highlight__left {
+   padding: 1rem;
+}
+
+.highlight__img {
+   max-width: 100%;
+}
+
+.highlight__title {
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-bottom: 1rem;
+}
+
+.highlight__para {
+   font-size: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.highlight__points {
+   list-style: none;
+   line-height: 2;
+}
+
+.highlight__point {
+   color: #717886;
+}
+
+.highlight__bullet {
+   color: #fff;
+   background-color: #fece2f;
+   padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+   border-radius: 50%;
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+@media (min-width: 840px) {
+   .highlight {
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 0;
+   }
+
+   .highlight__right--img {
+      flex-direction: row-reverse;
+   }
+
+   .highlight__left {
+      width: 30%;
+   }
+
+   .highlight__right {
+      width: 35%;
+   }
+
+   .highlight__title {
+      font-size: 2rem;
+   }
+
+   .highlight__para {
+      font-size: 1.2rem;
+   }
+
+   .highlight__point {
+      font-size: 1.1rem;
+   }
+}
