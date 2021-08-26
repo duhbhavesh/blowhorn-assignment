@@ -6,7 +6,7 @@ import './Header.css';
 
 export default function Header() {
    return (
-      <div className='container header__container'>
+      <div className='header__container'>
          <div className='header'>
             <div className='header__brand'>nullBrains.</div>
             <div className='header__menu'>

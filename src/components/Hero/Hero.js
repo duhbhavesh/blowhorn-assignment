@@ -4,7 +4,7 @@ import './Hero.css';
 
 export default function Hero() {
    return (
-      <div className='container'>
+      <>
          <section id='home' className='hero'>
             <h1 className='hero__title'>
                Start Crafting Your <br />
@@ -15,11 +15,11 @@ export default function Hero() {
                pages and so much more!
             </p>
             <button className='hero__btn'>Purchase Now</button>
-            <a href='#' className='hero__link'>
+            <a href='#home' className='hero__link'>
                Learn More
             </a>
          </section>
          <Companies />
-      </div>
+      </>
    );
 }
