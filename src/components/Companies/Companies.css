@@ -1,0 +1,27 @@
+.companies {
+   padding: 0.8rem;
+   margin-bottom: 6rem;
+}
+
+.company__img {
+   display: inline-block;
+   width: 100px;
+   margin-top: 1rem;
+   margin-right: 1.2rem;
+}
+
+.companies__heading {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.companies__images {
+   text-align: center;
+}
+
+@media (min-width: 840px) {
+   .company__img:not(:last-child) {
+      margin-right: 4rem;
+   }
+}

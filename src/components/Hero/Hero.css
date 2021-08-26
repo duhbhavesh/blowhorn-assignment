@@ -1,0 +1,63 @@
+.hero {
+   text-align: center;
+   margin-top: 3rem;
+   margin-bottom: 4rem;
+}
+
+.hero__title {
+   font-size: 2.2rem;
+   font-weight: 800;
+}
+
+.hero__title--color {
+   color: #5c5bed;
+}
+
+.hero__para {
+   font-size: 0.8rem;
+   margin: 0 auto;
+   width: 80%;
+}
+
+.hero__btn {
+   padding: 1rem;
+   padding-left: 1.2rem;
+   padding-right: 1.2rem;
+   border-radius: 2rem;
+   border-style: none;
+   cursor: pointer;
+   color: #fff;
+   background-color: #5c5bed;
+   font-weight: 500;
+   margin-top: 2.5rem;
+}
+
+.hero__link {
+   display: block;
+   text-decoration: none;
+   margin-top: 1rem;
+   font-size: 0.9rem;
+}
+
+@media (min-width: 840px) {
+   .hero {
+      margin-top: 8rem;
+      margin-bottom: 10rem;
+   }
+
+   .hero__title {
+      font-size: 4.5rem;
+   }
+
+   .hero__para {
+      font-size: 1.2rem;
+      width: 35%;
+   }
+
+   .hero__btn {
+      padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+      border-radius: 2.5rem;
+      margin-top: 3rem;
+      font-size: 1.1rem;
+   }
+}
