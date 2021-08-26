@@ -1,0 +1,68 @@
+import { FaGithub, FaTwitter } from 'react-icons/fa';
+
+export const teams = [
+   {
+      id: 1,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011738/null%20brains/1_icqxxj.jpg',
+      name: 'Freddy Smith',
+      position: 'CEO and Founder',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 2,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011738/null%20brains/3_ecereq.jpg',
+      name: 'Carl Jones',
+      position: 'CTO and Co-Founder',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 3,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011739/null%20brains/8_h5meka.jpg',
+      name: 'Pete Tompkins',
+      position: 'Marketing Director',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 4,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011739/null%20brains/7_mmggtb.jpg',
+      name: 'Tommy Barnes',
+      position: 'Designer',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 5,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011740/null%20brains/4_hee5hk.jpg',
+      name: 'Kelly Richards',
+      position: 'Sales Manager',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 6,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011738/null%20brains/2_xhlzxo.jpg',
+      name: 'Alexis Jordan',
+      position: 'Affiliate Manager',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 7,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011738/null%20brains/5_ywmccf.jpg',
+      name: 'Rachel Smith',
+      position: 'Web Developer',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+   {
+      id: 8,
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630011739/null%20brains/6_y2nfvb.png',
+      name: 'Pete Tompkins',
+      position: 'Web Developer',
+      twitter: <FaTwitter />,
+      github: <FaGithub />,
+   },
+];

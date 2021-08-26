@@ -1,0 +1,35 @@
+.teams__details {
+   padding: 1.5rem;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+}
+
+.teams__title {
+   font-size: 1.2rem;
+   font-weight: 500;
+   margin-bottom: 0.6rem;
+   color: #3b82f6;
+}
+
+.teams__para {
+   font-size: 1.1rem;
+   font-weight: 600;
+   color: #111827;
+}
+
+.teams__list {
+   display: flex;
+   flex-direction: column;
+}
+
+@media (min-width: 840px) {
+   .teams__list {
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+
+   .teams__para {
+      width: 40%;
+      font-size: 3rem;
+   }
+}
