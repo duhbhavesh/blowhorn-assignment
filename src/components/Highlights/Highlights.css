@@ -1,3 +1,7 @@
+.highlights {
+   margin-bottom: 5rem;
+}
+
 .highlight {
    display: flex;
    flex-direction: column;

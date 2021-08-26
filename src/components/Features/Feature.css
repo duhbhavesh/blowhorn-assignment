@@ -1,0 +1,42 @@
+.feature__card {
+   padding: 4rem 2rem 4rem 2rem;
+   border: 1px solid;
+   border-radius: 0.8rem;
+   width: 80%;
+   background-color: #f3f4f6;
+   border-style: none;
+   margin: 0 auto;
+   margin-bottom: 1.5rem;
+}
+
+.feature__icon {
+   display: inline-block;
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   padding: 0.8rem 0.9rem 0.8rem 0.9rem;
+   border-radius: 60%;
+   background-color: #3b82f6;
+   color: #fff;
+}
+
+.feature__title {
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+   font-weight: 500;
+   color: #3a4352;
+}
+
+.feature__para {
+   font-size: 1rem;
+   color: #8f95a0;
+}
+
+@media (min-width: 840px) {
+   .feature__card {
+      width: 30%;
+   }
+
+   .feature__title {
+      font-size: 1.3rem;
+   }
+}
