@@ -7,7 +7,7 @@
 .teams__title {
    font-size: 1.2rem;
    font-weight: 500;
-   margin-bottom: 0.6rem;
+   margin-bottom: 1rem;
    color: #3b82f6;
 }
 
@@ -30,12 +30,12 @@
 
    .teams__para {
       width: 60%;
-      font-size: 3rem;
+      font-size: 2.5rem;
    }
 }
 
 @media (min-width: 960px) {
    .teams__para {
-      width: 50%;
+      width: 45%;
    }
 }
