@@ -44,7 +44,7 @@ export const blogArticle = [
    },
    {
       id: 3,
-      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630043942/null%20brains/article1_sn2wqs.jpg',
+      image: 'https://res.cloudinary.com/duhbhavesh/image/upload/v1630043942/null%20brains/article3_f5rbo6.jpg',
       category: 'RESOURCES',
       title: 'A Design Mind-set',
       excerpt:
