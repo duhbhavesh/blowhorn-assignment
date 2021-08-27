@@ -33,8 +33,16 @@
    color: #717886;
 }
 
+.header__link--item:hover {
+   color: #5c5bed;
+}
+
 .header__link--item:focus {
    color: #5c5bed;
+}
+
+.header__search {
+   cursor: pointer;
 }
 
 .header__auth {
@@ -60,6 +68,10 @@
 .header__signup--btn {
    background-color: #5c5bed;
    color: #fff;
+}
+
+.header__signup--btn:hover {
+   opacity: 0.8;
 }
 
 @media (min-width: 840px) {

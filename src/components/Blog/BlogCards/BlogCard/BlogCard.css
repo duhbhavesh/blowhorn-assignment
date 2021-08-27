@@ -7,6 +7,11 @@
    border: 1px solid #d6dbe5;
 }
 
+.blog__card:hover {
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
 .blog__card--image {
    border-top-left-radius: 1rem;
    border-top-right-radius: 1rem;
@@ -47,12 +52,14 @@
    font-size: 1rem;
    font-weight: 700;
    margin-bottom: 1rem;
+   cursor: pointer;
 }
 
 .blog__card--excerpt {
    font-size: 1rem;
    line-height: 1.5;
    color: #717886;
+   cursor: pointer;
 }
 
 @media (min-width: 840px) {

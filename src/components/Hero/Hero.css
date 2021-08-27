@@ -29,6 +29,10 @@
    font-weight: 500;
 }
 
+.hero__btn:hover {
+   opacity: 0.9;
+}
+
 .hero__cta {
    position: relative;
    margin-top: 2rem;
