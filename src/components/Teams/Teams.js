@@ -5,7 +5,7 @@ import './Teams.css';
 
 export default function Teams() {
    return (
-      <section id='teams' className='teams'>
+      <section id='team' className='teams'>
          <div className='container'>
             <div className='teams__details'>
                <div className='teams__title'>OUR TEAM</div>

@@ -4,6 +4,7 @@ import Highlights from './components/Highlights/Highlights';
 import Features from './components/Features/Features';
 import Teams from './components/Teams/Teams';
 import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
    return (
@@ -14,6 +15,7 @@ function App() {
          <Features />
          <Teams />
          <Blog />
+         <Footer />
       </div>
    );
 }
