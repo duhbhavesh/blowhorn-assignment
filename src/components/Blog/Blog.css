@@ -1,0 +1,45 @@
+.blogs {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding-bottom: 3rem;
+   background-color: #f3f4f6;
+}
+
+.blogs__details {
+   padding-top: 4rem;
+}
+
+.blogs__title {
+   font-size: 2rem;
+   font-weight: 800;
+   margin-bottom: 0.8rem;
+}
+
+.blogs__para {
+   font-size: 1rem;
+}
+
+.blogs__categories,
+.blogs__posts {
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+@media (min-width: 840px) {
+   .blogs__title {
+      font-size: 3rem;
+   }
+
+   .blogs__para {
+      font-size: 1.2rem;
+   }
+
+   .blogs__categories,
+   .blogs__posts {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 5rem;
+   }
+}

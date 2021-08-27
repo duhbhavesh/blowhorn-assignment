@@ -11,7 +11,7 @@ export const headerLinks = [
    },
    {
       id: 3,
-      link: '#blog',
+      link: '#blogs',
       text: 'Blog',
    },
    {

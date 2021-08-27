@@ -1,6 +1,7 @@
 .companies {
    padding: 0.8rem;
-   margin-bottom: 6rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
 }
 
 .company__img {
@@ -21,6 +22,10 @@
 }
 
 @media (min-width: 840px) {
+   .companies {
+      margin-top: 10rem;
+   }
+
    .company__img:not(:last-child) {
       margin-right: 6rem;
    }
