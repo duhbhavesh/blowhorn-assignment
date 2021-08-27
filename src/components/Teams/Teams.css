@@ -29,7 +29,13 @@
    }
 
    .teams__para {
-      width: 40%;
+      width: 60%;
       font-size: 3rem;
+   }
+}
+
+@media (min-width: 960px) {
+   .teams__para {
+      width: 50%;
    }
 }

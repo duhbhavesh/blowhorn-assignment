@@ -14,6 +14,9 @@
 }
 
 .highlight__img {
+   display: block;
+   width: 90%;
+   margin: 0 auto;
    max-width: 100%;
 }
 
@@ -46,11 +49,22 @@
    font-weight: 600;
 }
 
+@media (min-width: 600px) {
+   .highlight__img {
+      width: 50%;
+      margin: 0 auto;
+   }
+}
+
 @media (min-width: 840px) {
    .highlight {
       flex-direction: row;
       justify-content: space-around;
       margin-bottom: 0;
+   }
+
+   .highlight__img {
+      width: 100%;
    }
 
    .highlight__right--img {

@@ -56,4 +56,23 @@
    .team__card {
       width: 25%;
    }
+
+   .team__img--wrapper {
+      width: 12rem;
+      height: 12rem;
+   }
+}
+
+@media (min-width: 960px) {
+   .team__img--wrapper {
+      width: 15rem;
+      height: 15rem;
+   }
+}
+
+@media (min-width: 1280px) {
+   .team__img--wrapper {
+      width: 16rem;
+      height: 16rem;
+   }
 }
