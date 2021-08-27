@@ -1,6 +1,6 @@
 .hero {
    text-align: center;
-   margin-top: 3rem;
+   margin-top: 6rem;
    margin-bottom: 4rem;
 }
 
@@ -20,16 +20,29 @@
 }
 
 .hero__btn {
-   padding: 1rem;
-   padding-left: 1.2rem;
-   padding-right: 1.2rem;
+   padding: 1rem 1.8rem 1rem 1.8rem;
    border-radius: 2rem;
    border-style: none;
    cursor: pointer;
    color: #fff;
    background-color: #5c5bed;
    font-weight: 500;
-   margin-top: 2.5rem;
+}
+
+.hero__cta {
+   position: relative;
+   margin-top: 2rem;
+}
+
+.hero__btn--badge {
+   background-color: #34d399;
+   color: #fff;
+   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+   border-radius: 1.5rem;
+   font-size: 0.7rem;
+   position: absolute;
+   top: -10px;
+   right: 32rem;
 }
 
 .hero__link {
@@ -55,9 +68,12 @@
    }
 
    .hero__btn {
-      padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+      padding: 1rem 2rem 1rem 2rem;
       border-radius: 2.5rem;
-      margin-top: 3rem;
       font-size: 1.1rem;
+   }
+
+   .hero__cta {
+      margin-top: 3rem;
    }
 }

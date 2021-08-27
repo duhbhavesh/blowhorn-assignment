@@ -33,6 +33,7 @@
 }
 
 .header__link--item {
+   font-size: 1rem;
    font-weight: 600;
    text-decoration: none;
    color: #717886;
@@ -75,15 +76,11 @@
    }
 
    .header__brand {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
    }
 
    .header__link {
       margin-right: 2rem;
-   }
-
-   .header__link--item {
-      font-size: 1.1rem;
    }
 
    .header__brand,
@@ -93,6 +90,6 @@
    }
 
    .header__auth--btn {
-      font-size: 1.1rem;
+      font-size: 1rem;
    }
 }

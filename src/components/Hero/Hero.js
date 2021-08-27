@@ -15,7 +15,12 @@ export default function Hero() {
                   Simplifying creation of landing pages, blog pages, application
                   pages and so much more!
                </p>
-               <button className='hero__btn'>Purchase Now</button>
+               <div className='hero__cta'>
+                  <button className='hero__btn'>
+                     Purchase Now
+                     <span className='hero__btn--badge'>only $15/mo</span>
+                  </button>
+               </div>
                <a href='#home' className='hero__link'>
                   Learn More
                </a>
