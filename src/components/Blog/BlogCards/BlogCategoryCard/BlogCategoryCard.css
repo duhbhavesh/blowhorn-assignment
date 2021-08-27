@@ -72,10 +72,6 @@
    color: #fbbf24;
 }
 
-.blog__category--card:nth-child(2) > .blog__category--image--wrapper {
-   margin-top: -2rem;
-}
-
 .blog__category--title {
    font-size: 1.5rem;
    font-weight: 700;
@@ -97,5 +93,9 @@
    .blog__category--title {
       width: 50%;
       font-size: 2rem;
+   }
+
+   .blog__category--card:nth-child(2) > .blog__category--image--wrapper {
+      margin-top: -2rem;
    }
 }

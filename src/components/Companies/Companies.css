@@ -4,11 +4,17 @@
    margin-bottom: 3rem;
 }
 
+.companies__images {
+   margin-top: 1.5rem;
+   text-align: center;
+}
+
 .company__img {
    display: inline-block;
    width: 100px;
-   margin-top: 1rem;
-   margin-right: 1.2rem;
+   margin: 1rem;
+   margin-top: 1.5rem;
+   margin-right: 1.5rem;
 }
 
 .companies__heading {
@@ -17,16 +23,12 @@
    font-weight: 700;
 }
 
-.companies__images {
-   text-align: center;
-}
-
 @media (min-width: 840px) {
    .companies {
       margin-top: 10rem;
    }
 
    .company__img:not(:last-child) {
-      margin-right: 6rem;
+      margin-right: 4.5rem;
    }
 }
