@@ -4,13 +4,21 @@
    line-height: 1.6;
 }
 
+.team__img--wrapper {
+   width: 15rem;
+   height: 15rem;
+   margin: 0 auto;
+   background: #eff6ff;
+   padding: 1rem;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 50%;
+   border-top-left-radius: 50%;
+   margin-bottom: 1rem;
+}
+
 .team__img {
    max-width: 100%;
    border-radius: 50%;
-   width: 220px;
-   padding: 1rem;
-   background-color: #eff6ff;
-   margin-bottom: 1rem;
 }
 
 .team__card--name {
