@@ -1,11 +1,5 @@
-.header {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   width: 100%;
-   padding: 1rem;
-   align-items: center;
-   border-bottom: 1px solid #eff0f2;
+.header__desktop {
+   display: none;
 }
 
 .header__brand {
@@ -69,7 +63,12 @@
 }
 
 @media (min-width: 840px) {
-   .header {
+   .header__desktop {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      border-bottom: 1px solid #eff0f2;
       flex-direction: row;
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
